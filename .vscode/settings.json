@@ -1,4 +1,13 @@
 {
-    "nxConsole.nxWorkspacePath": "org",
-    "nxConsole.generateAiAgentRules": true
+    "nxConsole.generateAiAgentRules": true,
+    "chat.mcp.serverSampling": {
+        "Mono-Repo/.vscode/mcp.json: nx-mcp": {
+            "allowedModels": [
+                "github.copilot-chat/gpt-4.1",
+                "github.copilot-chat/claude-sonnet-4",
+                "github.copilot-chat/o3-mini",
+                "github.copilot-chat/o4-mini"
+            ]
+        }
+    }
 }

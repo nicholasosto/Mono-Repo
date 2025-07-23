@@ -10,12 +10,15 @@
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
-    "nx": "21.3.4",
+    "nx": "21.3.5",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",
     "typescript": "~5.8.2"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "volta": {
+    "node": "22.17.1"
+  }
 }

@@ -2,7 +2,7 @@
   "servers": {
     "nx-mcp": {
       "type": "http",
-      "url": "http://localhost:9070/mcp"
+      "url": "http://localhost:9671/mcp"
     }
   }
 }
