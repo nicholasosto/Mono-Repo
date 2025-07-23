@@ -2,11 +2,19 @@
   "name": "@org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "jest"
+  },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "roblox-ts": "^3.0.0",
+    "rojo": "^1.0.2"
+  },
   "devDependencies": {
     "@nx/js": "21.3.4",
+    "create-roblox-ts": "^3.0.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
@@ -19,6 +27,7 @@
     "packages/*"
   ],
   "volta": {
-    "node": "22.17.1"
+    "node": "22.17.1",
+    "yarn": "4.9.2"
   }
 }
