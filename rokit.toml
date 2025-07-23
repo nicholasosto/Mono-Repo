@@ -6,5 +6,6 @@
 [tools]
 rojo = "rojo-rbx/rojo@7.5.1"
 wally = "UpliftGames/wally@0.3.2"
+rbxtsc = "roblox-ts/roblox-ts@1.5.0"
 StyLua = "JohnnyMorganz/StyLua@2.1.0"
 lune = "lune-org/lune@0.10.1"
